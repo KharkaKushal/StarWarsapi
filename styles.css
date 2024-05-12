@@ -1,0 +1,94 @@
+body {
+    background-image: url("https://wallpapers.com/images/high/kylo-ren-star-wars-tablet-aorl4j98bmkjsl91.webp");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+        background-size: contain; 
+    }
+
+    .container {
+        margin-top: 10%;
+    }
+
+    .button {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+
+    .logo {
+        width: 150px;
+    }
+
+    .card {
+        width: calc(50% - 20px);
+    }
+}
+
+.container {
+    margin-top: 5%;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.button {
+    background-color: black;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    padding: 15px 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin: 10px;
+}
+
+.button:hover {
+    background-color: cyan;
+    color: #000;
+}
+
+.button i {
+    margin-right: 10px;
+}
+
+.data-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    margin: 10px;
+    width: calc(25% - 20px);
+    background-color: grey;
+    color: #000;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+.card-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.card p {
+    margin-bottom: 10px;
+}
+
+.card p:last-child {
+    margin-bottom: 0;
+}
